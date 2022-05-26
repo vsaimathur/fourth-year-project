@@ -13,10 +13,10 @@ print('\n\tYou\'ve only ',
 # for calculation of minimum number of
 # guesses depends upon range
 while limit != 0:
-    limit-=1
+    limit = limit - 1
     # taking guessing number as input
     guess = int(input('Guess a number:- '))
- 
+    
     # Condition testing
     if x == guess:
         print('Congratulations you did it in ',
