@@ -3,17 +3,17 @@ import math
 
 lower = 3
 upper = 20
-tries = 10
+limit = 10
 
-x = randint(lower, upper)
+x = randint (lower , upper)
 print('\n\tYou\'ve only ',
-       tries,
+       limit,
       ' chances to guess the integer!\n')
  
 # for calculation of minimum number of
 # guesses depends upon range
-while tries != 0:
-    tries -= 1
+while limit != 0:
+    limit-=1
     # taking guessing number as input
     guess = int(input('Guess a number:- '))
  
