@@ -1,3 +1,9 @@
+#car-management-system
+
+'''
+Car Module, where all the car methods and it's variables are managed.
+'''
+
 class Car:
 	def __int__(self, name, speed, gas):
 		self.name = name
