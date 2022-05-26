@@ -5,7 +5,7 @@ lower = 3
 upper = 20
 limit = 10
 
-x = randint (lower , upper)
+x = randint(lower, upper)
 print('\n\tYou\'ve only ',
        limit,
       ' chances to guess the integer!\n')
